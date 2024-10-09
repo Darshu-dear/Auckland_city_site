@@ -1,0 +1,61 @@
+body{
+    text-align: center;
+    margin: 0;
+    font-family: "Happy Monkey", system-ui;
+    background: linear-gradient(#64F58D, #9DFFF9);
+}
+
+#title_img{
+    width: 100%;
+    height: 275px;
+}
+
+#places_to_visit{
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#places{
+    display: flex;
+    justify-content: space-around;
+}
+
+#sky_tower{
+    background-image: url("./images/sky_tower.jpg");
+}
+
+#auckland_war_memorial_museum{
+    background-image: url("./images/auckland_war_memorial_museum.jpg");
+}
+
+#auckland_zoo{
+    background-image: url("./images/auckland_zoo.jpg");
+}
+
+#sky_tower, #auckland_war_memorial_museum, #auckland_zoo{
+    border-radius: 50px;
+    height: 350px;
+    width: 350px;
+    background-size: cover;
+}
+
+#sky_tower:hover{
+    background-image: url("./images/sky_tower_night.jpg");
+}
+
+#auckland_war_memorial_museum:hover{
+    background-image: url("./images/auckland_museum_at_night.jpg");
+}
+
+#auckland_zoo:hover{
+    background-image: url("./images/auckland_zoo_2jpg.jpg");
+}
+
+.stuff_to_do{
+    display: flex;
+    justify-content: space-around;
+}
+
+#sky_tower_def, #auckland_museum_def, #auckland_zoo_def{
+    width: 350px;
+}
